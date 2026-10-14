@@ -1,0 +1,645 @@
+===== PÁGINA 1 =====
+
+Área personal  / Mis cursos  / 12561_26/0149/0921/ATIC/P/AI - Ed. 1  / EXAMEN FINAL  / Examen final
+
+
+
+     Comenzado el  miércoles, 14 de octubre de 2026, 14:17
+              Estado  Finalizado
+        Finalizado en  miércoles, 14 de octubre de 2026, 14:46
+            Tiempo  29 minutos 34 segundos
+         empleado
+              Puntos  17,00/25,00
+          Calificación  6,80 de 10,00 (68%)
+       Comentario - No has conseguido la calificación mínima requerida para aprobar el examen.
+
+                      Por favor, revisa tus respuestas y en caso necesario, repasa los contenidos antes de volver a realizar un
+                   nuevo intento (recuerda que tienes un máximo de 3 intentos para realizar el examen).
+
+
+
+
+    Pregunta 1
+
+    Correcta
+
+   Se puntúa 1,00 sobre 1,00
+
+
+
+     Al diseñar los flujos hay que evitar que una solicitud quede atrapada en un estado y prever qué hacer si se rechaza o
+    cancela por error. ¿Qué buenas prácticas se recomendaron en el curso para estas situaciones?
+
+
+         ◉ a. [SELECCIONADA — CORRECTA] Prever una vía de salida en cada estado y mantener flujos de recuperación que se activen solo cuando haga 
+               falta, pudiendo ocultarlos del historial si procede.
+
+         ○ b. Eliminar los estados de rechazo y cancelación, de modo que todas las solicitudes lleguen siempre al final del
+           proceso y no sea necesario recuperar ninguna.
+
+         ○ c. Recuperar las solicitudes modificando directamente la base de datos, ya que PIDE no permite volver a un estado
+             anterior una vez ejecutado un flujo final.
+         ○ d. Pedir al solicitante que cree una solicitud nueva clonándola desde cualquier estado, puesto que el clonado
+           copia todos los datos y el historial de la original.
+
+
+
+    Pregunta 2
+
+    Correcta
+
+   Se puntúa 1,00 sobre 1,00
+
+
+
+    En la pantalla CAMBIO DE ACTIVACIÓN, además de elegir el campo activador, la opción que lo dispara y el campo
+    activado, aparecen las listas Opciones disponibles y Opciones seleccionadas. ¿Para qué sirven estas dos listas en el
+    diseño del formulario?
+
+
+         ◉ a. [SELECCIONADA — CORRECTA] Para filtrar qué valores del campo activado se ofrecerán cuando se cumpla la regla, lo que permite construir 
+                 listas en cascada, como almacenes que dependen del centro.
+         ○ b. Para elegir qué roles verán el campo activado cuando se cumpla la regla, de modo que la activación sustituye
+         a la matriz de ediciones para ese campo en todos los estados.
+         ○ c. Para definir los estados en los que la regla estará vigente, ya que fuera de los estados seleccionados se
+           desactiva automáticamente aunque esté marcada como Habilitada.
+         ○ d. Para indicar qué valores del campo activador disparan la regla, de forma que varias opciones distintas muestren
+         a la vez el mismo campo de destino en el formulario.
+
+===== PÁGINA 2 =====
+
+Pregunta 3
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+ Algunos procesos necesitan que una misma solicitud recabe el visto bueno de dos unidades a la vez antes de seguir
+ avanzando por el recorrido principal. ¿Qué mecanismo de PIDE, explicado al tratar la gestión de flujos, responde a esta
+ necesidad?
+
+
+      ○ a. La opción Programa serie del flujo, que genera una copia de la solicitud para cada unidad y fusiona ambas
+        copias cuando las dos alcanzan un estado marcado como final.
+      ○ b. La asignación de dos roles distintos a un mismo perfil, de modo que quien tenga ese perfil valida por las dos
+        unidades en un único paso y sin crear estados nuevos.
+      ○ c. Los estados simultáneos, configurados en las subpestañas de Apertura y Cierre de Gestión flujos, que abren
+        subestados en paralelo y después los cierran.
+      ◉ d. [SELECCIONADA — INCORRECTA] La marca Ámbito en los roles validadores, que hace que cada unidad vea solo su parte de la solicitud y que 
+           el sistema avance solo cuando ambas la han revisado.
+
+
+
+Pregunta 4
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ PIDE dispone de un catálogo de 18 tipos de campo, que va desde los básicos como Entero, Fecha o Cadena hasta
+  otros como Búsqueda profesional o Consulta BDU. ¿Qué función cumple la pestaña Tipos de Campo dentro de la
+ edición de cada aplicación?
+
+
+      ○ a. Permite crear tipos de campo nuevos exclusivos de esa aplicación, que luego pueden compartirse con el resto
+       desde el menú global GESTIÓN DE TIPOS DE CAMPO.
+
+      ○ b. Permite cambiar de forma masiva el tipo de los campos ya creados, por ejemplo convertir en Double todos los
+       campos de tipo Cadena que recogen importes.
+
+      ○ c. Permite asignar a cada tipo de campo los roles que pueden rellenarlo, sustituyendo a la matriz de ediciones en
+           los campos de búsqueda e integración.
+      ◉ d. [SELECCIONADA — CORRECTA] Permite marcar como «No permitido» los tipos que no deben usarse en ese proceso, ya que habilitar solo los 
+         necesarios reduce los errores de diseño.
+
+
+
+Pregunta 5
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ Durante la entrevista, cada pregunta que se hace al cliente alimenta una pieza de PIDE. Si el analista pregunta «¿quién
+  pide, quién valida, quién gestiona y quién solo consulta?» y luego «¿se identifican por centro, unidad o puesto?», ¿qué
+  piezas está obteniendo?
+
+
+      ○ a. La primera da los estados del proceso y la segunda los flujos, porque cada persona que interviene equivale a
+       una fase y cada centro a un botón de acción distinto.
+      ○ b. La primera da los campos obligatorios y la segunda las activaciones, porque según el centro o el puesto se
+        mostrarán unos campos u otros en el formulario.
+      ○ c. La primera da las vistas del listado y la segunda las categorías de la aplicación, que son las que agrupan los
+        procesos por centro, unidad o puesto de trabajo.
+      ◉ d. [SELECCIONADA — CORRECTA] La primera da los roles del proceso y la segunda los perfiles, que asocian cada rol a grupos del directorio   
+         activo que identifican a las personas por su ámbito.
+
+===== PÁGINA 3 =====
+
+Pregunta 6
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+ La pantalla EDICIÓN DE FLUJO incluye varias opciones acompañadas de un texto de ayuda, entre ellas Establece fecha
+ y Flujo inicial automático. ¿Qué describe la ayuda de la propia interfaz para cada una de estas dos opciones del flujo?
+
+
+      ○ a. Establece fecha obliga al usuario a indicar una fecha límite de resolución, y Flujo inicial automático crea una
+          solicitud nueva cada día a una hora programada.
+
+      ○ b. Establece fecha reinicia la fecha de solicitud en ese flujo, y Flujo inicial automático indica que la transición se
+         ejecutará sola tras el estado BORRADOR.
+
+      ○ c. Establece fecha bloquea la solicitud hasta la fecha recogida en un campo, y Flujo inicial automático la asigna al
+         primer usuario libre del rol de destino.
+      ◉ d. [SELECCIONADA — INCORRECTA] Establece fecha añade la fecha actual al asunto del correo, y Flujo inicial automático marca como iniciales 
+        todos los flujos del estado de orden más bajo.
+
+
+
+Pregunta 7
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ Antes de entrar en la notación conviene tener claro el concepto de BPM (Business Process Management). Desde un
+ punto de vista teórico, ¿cuál de las siguientes definiciones describe mejor qué es la gestión por procesos de negocio?
+
+
+      ○ a. Un lenguaje de programación orientado a procesos que sustituye a las bases de datos y permite escribir
+        directamente el código de cada aplicación corporativa.
+      ○ b. Un tipo de diagrama con símbolos estandarizados que se usa solo para documentar procesos ya terminados, sin
+          intervenir en cómo se ejecutan ni se mejoran.
+      ◉ c. [SELECCIONADA — CORRECTA] Una disciplina de gestión que identifica, modela, ejecuta, mide y mejora de forma continua los procesos de 
+       una organización, con apoyo de herramientas.
+
+      ○ d. Una herramienta informática concreta, de un único fabricante, que se instala en cada puesto para medir el
+        tiempo que dedica cada profesional a sus tareas.
+
+
+
+Pregunta 8
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ Para entender cómo piensa PIDE conviene distinguir entre aplicación, solicitud y elemento, lo que en diseño de
+  formularios se conoce como estructura maestro-detalle. ¿Cuál de las siguientes correspondencias es la correcta?
+
+
+      ○ a. La aplicación es cada material entregado, la solicitud es el conjunto de centros que lo piden y el elemento es el
+        estado en que se encuentra cada petición concreta.
+      ○ b. La aplicación es el servicio que pide el material, la solicitud es el rol que la tramita y el elemento es cada uno de
+           los botones de acción que ve el usuario.
+      ◉ c. [SELECCIONADA — CORRECTA] La aplicación es la definición completa del proceso, la solicitud es cada petición concreta y los elementos  
+        son las líneas de detalle que puede contener esa petición.
+
+      ○ d. La aplicación es el formulario del solicitante, la solicitud es cada campo de ese formulario y el elemento es cada
+            perfil vinculado a un grupo del directorio activo.
+
+===== PÁGINA 4 =====
+
+Pregunta 9
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ En todo proceso debe existir al menos un rol o perfil de administrador. Según las buenas prácticas insistentemente
+  repetidas en el curso, ¿cómo debe utilizarse ese rol y por qué?
+
+
+      ○ a. Debe usarse como usuario habitual del proceso para validar las solicitudes urgentes, porque al tener todos los
+         permisos evita que las peticiones queden bloqueadas.
+      ◉ b. [SELECCIONADA — CORRECTA] Solo para el diseño y la configuración del proceso, nunca como usuario operativo, porque interactuar con las 
+          solicitudes como administrador falsearía datos y registros.
+
+      ○ c. Debe asignarse a todos los responsables de unidad, porque así pueden corregir los datos de cualquier solicitud
+           sin tener que pedir ayuda al equipo de sistemas.
+      ○ d. Solo debe crearse durante la puesta en marcha y eliminarse después, porque un rol administrador activo impide
+          sincronizar los permisos de la aplicación.
+
+
+
+Pregunta 10
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ En el diagrama del préstamo de equipos aparece una compuerta exclusiva tras la revisión del gestor, con tres salidas:
+  pedir más información, denegar o prestar. ¿Cómo se representa esta decisión cuando el proceso se configura en PIDE?
+
+
+      ○ a. Como un único flujo con un campo de lista en el que el gestor elige el destino, ya que PIDE solo admite una
+          transición de salida por cada estado del proceso.
+      ◉ b. [SELECCIONADA — CORRECTA] Como tres flujos de salida desde el mismo estado, cada uno con su acción y su estado siguiente, que el   
+         gestor verá como tres botones si su rol está asociado a ellos.
+
+      ○ c. Como una activación entre dos campos, de modo que según el valor elegido en el formulario la solicitud
+       cambia de estado sin necesidad de pulsar ningún botón.
+
+      ○ d. Como tres estados simultáneos que se abren a la vez, de forma que la solicitud recorre en paralelo las tres
+        opciones y el gestor decide al final cuál de ellas cierra.
+
+
+
+Pregunta 11
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+ Un proceso tiene un rol CONSULTOR pensado para que ciertas personas solo puedan seguir las solicitudes sin intervenir en
+  ellas. Según lo visto en el curso, ¿qué hace realmente que un rol sea de solo consulta en PIDE?
+
+
+      ○ a. Que su nombre contenga la palabra CONSULTOR, ya que la plataforma reconoce ese término y aplica de forma
+        automática permisos de lectura en todos los estados del proceso.
+      ◉ b. [SELECCIONADA — INCORRECTA] Que tenga marcada la casilla Ámbito, porque esa marca impide modificar las solicitudes y limita al rol a    
+           visualizar los datos que hayan introducido los demás roles.
+      ○ c. Que no tenga flujos asociados y que la matriz de ediciones no le deje ningún campo editable; no lo determina su
+        nombre, sino la configuración de flujos y campos.
+
+      ○ d. Que en la matriz de ediciones se elija el valor «Solo lectura» en una columna común para todos los estados, que
+         se aplica de una vez a todos los campos del formulario.
+
+===== PÁGINA 5 =====
+
+Pregunta 12
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ En muchas aplicaciones un mismo rol, como SOLICITANTE, se reparte en decenas de perfiles: uno por jefatura de servicio
+ o supervisión de enfermería. ¿Qué ventaja tiene este patrón frente a crear un rol distinto para cada servicio?
+
+
+      ○ a. Que cada perfil puede tener su propia máquina de estados, de forma que cada servicio sigue un recorrido
+         diferente aunque todos compartan el mismo formulario de solicitud.
+
+      ○ b. Que los perfiles no necesitan sincronizarse con el sistema de permisos, mientras que cada rol nuevo obliga a
+          sincronizar de nuevo toda la aplicación antes de usarla.
+      ◉ c. [SELECCIONADA — CORRECTA] Que todos comparten los mismos flujos y la misma matriz de ediciones del rol, y cada perfil solo cambia el  
+        grupo DMSAS y la restricción de valores, como su propio servicio.
+      ○ d. Que cada perfil puede marcarse como administrador de su propio servicio, pudiendo modificar estados y flujos
+           sin afectar a la configuración del resto de servicios.
+
+
+
+Pregunta 13
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ PIDE permite adjuntar documentos a las solicitudes. Según lo explicado en el curso sobre la gestión documental de la
+ plataforma, ¿cuál de las siguientes afirmaciones describe correctamente cómo se controlan los adjuntos?
+
+
+      ◉ a. [SELECCIONADA — CORRECTA] Ver, subir o borrar adjuntos depende del rol y del estado, y hay extensiones bloqueadas; el solicitante solo  
+         borra los suyos en el estado inicial.
+      ○ b. Cualquier usuario que vea la solicitud puede subir, sustituir o borrar documentos en todo momento, porque los
+         adjuntos no dependen ni del rol ni del estado.
+
+      ○ c. Los documentos se guardan dentro de la base de datos como un campo más del formulario, por lo que solo se
+        admite un único adjunto por cada solicitud tramitada.
+
+      ○ d. Los adjuntos solo pueden subirse en el estado final del proceso, cuando la solicitud ya está resuelta, para evitar
+       que se modifiquen durante la tramitación.
+
+
+
+Pregunta 14
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+  Los grupos del directorio activo que se asocian a los perfiles siguen una nomenclatura acordada, documentada por el
+ equipo en Confluence. Según lo explicado en el curso, ¿qué información codifica esa nomenclatura?
+
+
+      ○ a. El nombre y los apellidos del responsable del grupo, seguidos de su fecha de alta, para saber en todo momento
+        quién gestiona cada grupo y desde cuándo lo hace.
+      ◉ b. [SELECCIONADA — CORRECTA] Un prefijo de área seguido de los identificadores del proceso, del rol y del perfil, de modo que el nombre del 
+        grupo indica a qué parte del proceso da acceso.
+      ○ c. El número de usuarios que contiene el grupo y su provincia, para que el directorio activo pueda repartir la carga
+         entre los distintos controladores de dominio.
+
+      ○ d. La versión de la aplicación y la fecha de su última exportación, para poder identificar qué grupos pertenecen a
+       cada versión publicada del proceso.
+
+===== PÁGINA 6 =====
+
+Pregunta 15
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ La pestaña Exportar/Importar genera un fichero JSON con la definición completa de un proceso y permite cargarlo en
+  otro entorno o servidor de PIDE. ¿Cuál de estas afirmaciones refleja mejor las cautelas actuales que deben tenerse en
+ cuenta al usarla?
+
+
+      ○ a. La importación es inmediata y no necesita revisión, porque el JSON resuelve por nombre todas las referencias y
+        crea en destino los catálogos que todavía no existan.
+      ○ b. Solo se exportan estados y flujos, de modo que campos, activaciones, ediciones y configuración de correos
+       deben crearse de nuevo a mano en el entorno de destino.
+      ○ c. El JSON solo puede importarse en el mismo servidor del que procede, porque va cifrado con una clave propia y
+       no sirve para trasladar procesos entre entornos.
+      ◉ d. [SELECCIONADA — CORRECTA] Toda importación debe revisarse, porque el JSON usa identificadores físicos de base de datos y depende de 
+        catálogos externos, como áreas o grupos, que no viajan.
+
+
+
+Pregunta 16
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+ Cada celda de la matriz de ediciones de campos combina un rol, un estado y un campo, y su valor se elige en un
+ desplegable con un código de colores. ¿Qué relación recoge los valores que se han observado en ese desplegable
+ durante el curso?
+
+
+      ○ a. Lectura, Escritura, Oculto y Bloqueado, de manera que Bloqueado impide modificar el campo en ese estado
+       aunque el rol tenga activada la marca Admin en su ficha.
+
+      ○ b. Sin configurar, Editable, Obligatorio y No visible, cada uno con su color, sin que se haya observado entre ellos un
+          valor explícito de «Solo lectura».
+      ◉ c. [SELECCIONADA — INCORRECTA] Visible, Solo lectura, Editable y Obligatorio, de modo que todo campo que no se configure expresamente   
+       queda en Solo lectura para cualquier rol del proceso.
+      ○ d. Activado, Visualizado, Obligatorio y Calculado, que coinciden con los tipos de activación y hacen que el
+      campo cambie según el valor de otro campo.
+
+
+
+Pregunta 17
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+ En la entrevista también se pregunta «¿qué pasa si falta información?, ¿a dónde vuelve la petición?» y se comprueba
+ qué significa para el cliente cada fase, por ejemplo SOLICITADO. ¿Qué buscan estas preguntas desde el punto de vista
+  del diseño?
+
+
+      ◉ a. [SELECCIONADA — CORRECTA] Identificar los estados de espera y los bucles de vuelta, y asegurar que el nombre de cada estado significa lo 
+       mismo para todos los que intervienen en el proceso.
+      ○ b. Determinar qué campos deben ser de tipo Multilínea para recoger las aclaraciones del solicitante, y fijar el texto
+       que aparecerá en el asunto de los correos de aviso.
+      ○ c. Calcular cuántos perfiles harán falta por servicio y decidir qué roles necesitarán la marca Admin para poder
+          corregir las solicitudes que lleguen incompletas.
+      ○ d. Decidir si el proceso necesita integrarse con CitaWeb o con informes Jasper, ya que solo los procesos con bucles
+       de vuelta pueden lanzar informes desde un flujo.
+
+===== PÁGINA 7 =====
+
+Pregunta 18
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+ Durante el curso se preguntó qué ve el solicitante cuando su petición avanza a un estado en el que él ya no interviene.
+ Según lo explicado, ¿cuál es el comportamiento esperado del sistema?
+
+
+      ○ a. Si su rol no tiene acceso al nuevo estado, la solicitud deja de aparecer en su vista; es el comportamiento
+         correcto y depende de cómo se haya configurado el acceso.
+
+      ○ b. La solicitud permanece siempre en su bandeja con todos los campos editables, porque quien crea una petición
+        conserva el control sobre ella hasta el final.
+
+      ○ c. La solicitud se borra de la base de datos para el solicitante, que ya no podrá consultarla nunca, ni siquiera
+       cuando el proceso vuelva a pedirle información.
+      ◉ d. [SELECCIONADA — INCORRECTA] El sistema envía siempre una copia de la solicitud a su correo y la bloquea en pantalla, porque PIDE no    
+        permite que el solicitante pierda de vista sus peticiones.
+
+
+
+Pregunta 19
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+  El perfil es la pieza que conecta a las personas con los roles y delimita su ámbito de actuación dentro del proceso. ¿Cuál
+ de las siguientes descripciones recoge correctamente qué compone un perfil en PIDE y qué permite?
+
+
+      ◉ a. [SELECCIONADA — CORRECTA] Un grupo del directorio activo, un rol, una ubicación y la marca Habilitado; acota el rol a ese colectivo y   
+       puede restringir los valores de un campo de lista.
+      ○ b. Un usuario nominal, una contraseña propia de la aplicación y un estado de entrada; permite decidir en qué
+        estado empieza a trabajar cada persona del proceso.
+
+      ○ c. Un rol, una agrupación de campos y un nivel de anidamiento; permite definir qué campos son obligatorios para
+       cada centro en cada uno de los estados.
+
+      ○ d. Un área sanitaria, una categoría y una plantilla de correo; permite que cada centro reciba los avisos de la
+         aplicación con un formato distinto al del resto.
+
+
+
+Pregunta 20
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+  Las condiciones deciden si se aplica un flujo, una vista o la apertura de un subestado. En la configuración guardada y en
+  las exportaciones aparecen con expresiones internas del tipo ($19841==#162392). ¿Qué consecuencia práctica tiene
+ para el administrador esta forma de referenciar?
+
+
+      ○ a. Que las condiciones se recalculan por nombre cada noche, por lo que si se renombra un campo hay que
+         esperar a la siguiente ejecución para que vuelvan a funcionar.
+      ◉ b. [SELECCIONADA — INCORRECTA] Que solo pueden compararse campos numéricos, porque $ y # representan importes y cantidades, y las listas 
+       deben resolverse siempre mediante activaciones.
+      ○ c. Que no admiten combinar varios requisitos, de modo que para exigir dos valores a la vez hay que crear dos flujos
+         paralelos hacia el mismo estado de destino.
+      ○ d. Que si se borra y se vuelve a crear un campo o una opción, aunque se llame igual, la condición deja de
+         funcionar, porque usa su identificador y no su nombre.
+
+===== PÁGINA 8 =====
+
+Pregunta 21
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+ La ficha de una aplicación muestra, en el apartado de sincronización, el mensaje «No existe aplicación en Permisos», y
+ además la casilla Publicado está sin marcar. ¿Qué significa esta situación y qué debe hacer el administrador antes de
+ poner el proceso en marcha?
+
+
+      ○ a. Que faltan roles con la marca Admin; basta con crear uno, porque la plataforma sincroniza y publica de forma
+        automática toda aplicación con al menos un administrador.
+      ◉ b. [SELECCIONADA — INCORRECTA] Que se importó desde otro servidor y ha quedado bloqueada; hay que exportarla de nuevo desde el origen y 
+          repetir la importación incluyendo todos sus catálogos.
+      ○ c. Que su área sanitaria no existe en el menú ÁREAS; hay que crearla allí y, desde ese momento, los usuarios ya
+       pueden ver la aplicación y tramitar solicitudes.
+
+      ○ d. Que no está sincronizada ni visible para usuarios sin perfil de administrador; hay que usar Comprobar y
+          Sincronizar, habilitar los perfiles y marcar Publicado.
+
+
+
+Pregunta 22
+
+Correcta
+
+Se puntúa 1,00 sobre 1,00
+
+
+
+  Al configurar un rol en la pantalla EDICIÓN DE ROL aparecen tres marcas que comparten todos los roles de cualquier
+  aplicación. Si el administrador activa la marca Ámbito en el rol SOLICITANTE, ¿qué efecto describe la propia interfaz para
+ esa marca?
+
+
+      ○ a. Que el rol solo trabajará con solicitudes del área sanitaria indicada en la ficha de la aplicación, sin tener en
+        cuenta la ubicación configurada en cada perfil.
+
+      ○ b. Que el rol se abrirá desde la estación clínica mediante la lanzadera, aunque la aplicación no tenga marcada la
+        opción Crear desde botón rojo en su ficha.
+      ◉ c. [SELECCIONADA — CORRECTA] Que los usuarios con ese rol solo verán sus propias peticiones y no las del resto de personas que usan la   
+         aplicación, aunque compartan perfil o servicio con ellas.
+      ○ d. Que el usuario tendrá permisos de administración limitados, pudiendo editar estados y flujos de la aplicación
+        pero no los perfiles ni la sincronización de permisos.
+
+
+
+Pregunta 23
+
+Incorrecta
+
+Se puntúa 0,00 sobre 1,00
+
+
+
+  Al diseñar la máquina de estados de un proceso hay que indicar por dónde empieza y por dónde termina la tramitación
+ de una solicitud. ¿Dónde se configuran en PIDE las marcas Inicial y Final y a qué elemento del proceso pertenecen
+ realmente?
+
+
+      ◉ a. [SELECCIONADA — INCORRECTA] En la pantalla EDICIÓN DE ESTADO, mediante dos casillas que convierten el estado elegido en punto de    
+        arranque o de cierre del proceso para todos los roles de la aplicación.
+      ○ b. En la ficha de la aplicación, donde se eligen en dos desplegables el estado de entrada y el de salida, que
+        después heredan todos los flujos que lleguen a esos estados.
+      ○ c. En la pantalla EDICIÓN DE FLUJO, porque son marcas de la transición que arranca o cierra el proceso; el estado
+          solo tiene Padre, Nombre, Icono y Orden.
+      ○ d. En la matriz de Ediciones de Campos, donde la columna del primer estado se toma como inicial y la última, sin
+       campos editables, se interpreta como estado final.
+
+===== PÁGINA 9 =====
+
+       Pregunta 24
+
+       Correcta
+
+      Se puntúa 1,00 sobre 1,00
+
+
+
+       En el ciclo de vida presentado en el curso, el diagrama BPMN se elabora con una herramienta externa antes de tocar
+        PIDE. ¿Cuál es la razón principal de hacerlo así y qué relación hay entre esa herramienta y PIDE?
+
+
+            ○ a. El BPMN es obligatorio porque PIDE no permite crear estados ni flujos si no se importa antes el fichero del
+             diagrama, que es el que genera de forma automática la máquina de estados.
+
+            ○ b. El BPMN sustituye a la entrevista con el cliente, ya que la herramienta incluye un asistente que deduce los roles y
+                  los datos del proceso a partir de la normativa que se le adjunta.
+
+            ○ c. El BPMN solo se hace para la documentación final en Confluence, una vez que el proceso ya funciona en
+              producción, porque PIDE genera el diagrama a partir de su configuración.
+            ◉ d. [SELECCIONADA — CORRECTA] Es el prototipo que se valida con el cliente antes de configurar, porque lo más caro es configurar sin diseño  
+               validado; PIDE no tiene editor BPMN.
+
+
+
+       Pregunta 25
+
+       Correcta
+
+      Se puntúa 1,00 sobre 1,00
+
+
+
+       Los flujos son las transiciones que mueven una solicitud de un estado a otro y se configuran en la pestaña Gestión flujos.
+      ¿Cuál de las siguientes descripciones recoge correctamente qué se define en un flujo y cómo lo percibe el usuario?
+
+
+            ○ a. Se define el campo que dispara el cambio y el valor que lo activa; el usuario no ve nada, porque la solicitud
+            cambia de estado sola en cuanto se rellena ese campo.
+            ○ b. Se define el rol de origen y el rol de destino de la solicitud; el usuario lo percibe como un aviso en pantalla que le
+               indica a qué persona ha pasado su petición.
+
+            ○ c. Se define el icono, el orden y el estado padre de la transición; el usuario lo ve como una pestaña nueva del
+                formulario que se abre al cambiar la solicitud de fase.
+            ◉ d. [SELECCIONADA — CORRECTA] Se define el estado origen, el estado destino, la acción y su orden, entre otras opciones; el usuario lo ve como 
+            un botón con el texto de la acción si su rol está asociado.
+
+
+
+
+                Ir a...
+
+                                                                                                 Material adicional de PIDE ►
+
+
+
+
+
+Resumen de retención de datos
+Descargar la app para dispositivos móviles
+
